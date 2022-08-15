@@ -167,4 +167,20 @@ hr{
         display: block;
         text-align: center;
     }
+
+}
+
+@media only screen and (max-width:500px){
+    .head-btn .login-btn{
+        font-size: 0.4rem;
+    }
+
+    .logo-img{
+        height: 0.7rem;
+        
+    }
+
+    .calci-head-div{
+        flex-direction: column;
+    }
 }
