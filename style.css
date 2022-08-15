@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+i{
+    
+    color: #DFDFDF;
+}
+hr{
+    background-color: #545556;
+}
+
+.orange-colour{
+    color: #FD7E14;
+}
+
+.login-btn{
+    background-color: #FD7E14;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.logo-img{
+    height: 1.45rem;
+    
+}
+
+.head-btn{
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.head-btn:hover{
+    background-color: #FD7E14;
+    color: #fff;
+    transition: all 0.35s;
+}
+
+.main-nav{
+    background-color: #FFCC33;
+}
+
+.main-nav ul{
+    display: flex;
+}
+
+.main-nav ul{
+    list-style-type: none;
+}
+
+.main-nav li{
+    margin-right: 1.4rem;
+}
+
+.love-img-div{
+    border: 1px solid #C3C3C3;
+    background-color: #F4F4F4;
+    border-radius: 14px;
+}
+
+.love-img-div img{
+    height: 75%;
+}
+
+.love-calculator-section{
+    background-color: #f8f8f8;
+}
+
+.love-btn{
+    color: #fff;
+    font-weight: bold;
+    background-color: #FD7E14;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.faq-section{
+    background-color: #f8f8f8;
+}
+
+.faq-collapse{
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.horoscope-div{
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.horoscope-div:hover{
+    border: 1px solid #FD7E14;
+    transition: all 0.35s;
+}
+
+.horoscope-div p{
+    margin: 0.3rem 0;
+}
+
+.horoscope-name{
+    font-weight: bold;
+}
+
+.horoscope-month{
+    font-size: 0.85rem;
+}
+
+.horoscope-div a{
+    color: black;
+    text-decoration: none;
+}
+.services-section{
+    background-color: #2C2D2E;
+}
+.services ul{
+    list-style-type: none;
+    color: #C3C3C3;
+   
+} 
+.footer-services {
+    background-color: #212529;
+    color: #dfdfdf;
+}
+.app-store div{
+    height: 50px;
+    margin: 1rem 0;
+    
+    
+}
+.app-store img{
+    height: 100%;
+    cursor: pointer;
+
+}
+.useful-link li{
+    list-style: none;
+    padding-bottom: 8px;
+}
+ .icon-div{
+    margin-top: 2.1rem;
+ }
+ .icon-div i{
+    margin-right: 1rem;
+    font-size: 22px;
+    border-radius: 100%;
+    cursor: pointer;
+ }
+
+
+
+
+@media only screen and (max-width:778px){
+    .main-nav ul{
+        display: block;
+        text-align: center;
+    }
+}
